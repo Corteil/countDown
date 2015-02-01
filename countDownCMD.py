@@ -28,8 +28,7 @@ timeNow =datetime.datetime.now()
 
 while timeNow <= targetTime:
 
-    timeNow =datetime.datetime.now() # the time now!
-    timeNow =datetime.datetime.now()
+    timeNow =datetime.datetime.now() # the time now
     remainingTime=(targetTime-timeNow)
     days = remainingTime.days
     secs = remainingTime.seconds
